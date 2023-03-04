@@ -185,6 +185,10 @@ h6,
         background:#FFFFFF;
     }
 
+    .navhead{
+        color: #091E3E;
+    }
+
     .navbar-dark .navbar-nav .nav-link,
     .navbar-dark .navbar-nav .nav-link.show,
     .sticky-top.navbar-dark .navbar-nav .nav-link {
@@ -210,6 +214,10 @@ h6,
     .sticky-top.navbar-dark {
         position: fixed;
         background: #FFFFFF;
+    }
+
+    .navhead{
+        color: #091E3E;
     }
 
     .navbar-dark .navbar-nav .nav-link::before {

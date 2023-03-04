@@ -68,7 +68,7 @@
                 <img src="img/logonew.png" alt="BUDC">
             </a>
 
-            <h1 class="mb-0" style="color: #091E3E;">Beat Up Dance Centre</h1>
+            <h1 class="mb-0 navhead">Beat Up Dance Centre</h1>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -161,19 +161,31 @@
             </div>
             <div class="row g-5">
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                    <form>
+                    <form action="https://formspree.io/f/mjvdrprv" method="POST">
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">
+                                <input name="Name" type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">
+                                <input name="Email" type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">
+                            </div>
+                            <div class="col-md-6">
+                                <input name="Phone Number" type="text" class="form-control border-0 bg-light px-4" placeholder="Your Phone Number" style="height: 55px;" required>
+                            </div>
+                            <div class="col-md-6">
+                                <select name="Batch" type="text" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;" required>
+                                    <option selected>---Select Batch---</option>
+                                    <option>Beginners Batch</option>
+                                    <option>Ladies Batch</option>
+                                    <option>Little Masters Dance Batch</option>
+                                    <option>Kid's Batch</option>
+                                    <option>Beginner Hip Hop Batch</option>
+                                    <option>Intermediate Hip Hop Batch</option>
+                                    <option>Grooves & Moves</option>
+                                </select>
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;">
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
+                                <textarea name="Message" class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
                             </div>
                             <div class="col-12">
                                 <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
@@ -279,6 +291,15 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+        window.onbeforeunload = () => {
+        for(const form of document.getElementsByTagName('form')) {
+            form.reset();
+        }
+        }
+    </script>
+
 </body>
 
 </html>
