@@ -185,6 +185,10 @@ h6,
         background:#FFFFFF;
     }
 
+    .topname {
+        font-size: larger;
+    }
+
     .navhead{
         color: #091E3E;
     }
