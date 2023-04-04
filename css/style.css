@@ -186,7 +186,7 @@ h6,
     }
 
     .topname {
-        font-size: x-large;
+        font-size: larger;
     }
 
     .topimage {
@@ -195,6 +195,7 @@ h6,
 
     .batchtext {
         font-size: 12px;
+        padding: 1.7rem !important;
     }
 
     .navhead{
