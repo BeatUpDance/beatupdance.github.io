@@ -193,6 +193,10 @@ h6,
         text-align: center;
     }
 
+    .batchtext {
+        font-size: 12px;
+    }
+
     .navhead{
         color: #091E3E;
     }
