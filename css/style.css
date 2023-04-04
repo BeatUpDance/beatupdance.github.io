@@ -186,7 +186,11 @@ h6,
     }
 
     .topname {
-        font-size: larger;
+        font-size: x-large;
+    }
+
+    .topimage {
+        text-align: center;
     }
 
     .navhead{
