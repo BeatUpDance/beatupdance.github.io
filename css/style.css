@@ -363,10 +363,14 @@ h6,
     transition: .5s;
 }
 
+.dance{
+    color: #ba4848;
+}
+
 .service-item .service-icon {
     margin-bottom: 30px;
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
