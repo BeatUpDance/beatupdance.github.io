@@ -361,10 +361,12 @@ h6,
     height: 300px;
     padding: 0 30px;
     transition: .5s;
+
 }
 
 .dance{
-    color: #ba4848;
+    color:#000000;
+    background-color: #ffffff;
 }
 
 .hip-hop{
