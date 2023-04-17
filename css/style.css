@@ -367,6 +367,30 @@ h6,
     color: #ba4848;
 }
 
+.hip-hop{
+    background-image: url(../img/hiphop.jpg);
+}
+
+.Freestyle{
+    background-image: url(../img/freestyle.jpg);
+}
+
+.Bollywood{
+    background-image: url(../img/bollywood.jpg);
+}
+
+.SemiClassical{
+    background-image: url(../img/semiclassical.jpg);
+}
+
+.contemporary{
+    background-image: url(../img/contemporary.jpg);
+}
+
+.bhangra{
+    background-image: url(../img/bhangra.jpg);
+}
+
 .service-item .service-icon {
     margin-bottom: 30px;
     width: 100px;
