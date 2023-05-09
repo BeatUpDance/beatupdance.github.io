@@ -365,32 +365,40 @@ h6,
 }
 
 .dance{
-    color:#000000;
-    background-color:#ffffff;
+    color: #000;;
+    /* background-color:#ffffff; */
+    backdrop-filter: blur(10px) saturate(70%);
+}
+
+.dance-w{
+    color: #FFFFFF;;
+    /* background-color:#ffffff; */
+    backdrop-filter: blur(10px) saturate(70%);
 }
 
 .hip-hop{
-    background-image: url(../img/hiphop.jpg);
+    background-image: url(../img/hiphop.png);
 }
 
 .Freestyle{
-    background-image: url(../img/freestyle.jpg);
+    background-image: url(../img/freestyle.png);
+    color: #FFFFFF;
 }
 
 .Bollywood{
-    background-image: url(../img/bollywood.jpg);
+    background-image: url(../img/bollywood.png);
 }
 
 .SemiClassical{
-    background-image: url(../img/semiclassical.jpg);
+    background-image: url(../img/semiclassical.png);
 }
 
 .contemporary{
-    background-image: url(../img/contemporary.jpg);
+    background-image: url(../img/contemporary.png);
 }
 
 .bhangra{
-    background-image: url(../img/bhangra.jpg);
+    background-image: url(../img/bhangra.png);
 }
 
 .service-item .service-icon {
