@@ -24,12 +24,22 @@
     height : 95%;
     width : 95%;
     transform : translate(-50%,-50%);    
-    background-color: rgba(0,0,0);
+    background-color: rgb(0 0 0 / 36%);
     transition : all ease-in-out 600ms;
+    height: 700px;
+    width: 800px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .hidden{
     transition : 0.5s;
     display : none;
+  }
+  .splash-img{
+    height: 600px;
+    width: 700px;
   }
   .splash-header {
     height : 90%;
@@ -212,6 +222,30 @@ h6,
     .navbar-dark .navbar-brand h1 {
         color: var(--primary);
     }
+
+    .splash{
+        z-index : 999;
+        cursor : pointer;
+        position : fixed;
+        top : 50%;
+        left : 50%;
+        height : 95%;
+        width : 95%;
+        transform : translate(-50%,-50%);    
+        background-color: rgb(0 0 0 / 36%);
+        transition : all ease-in-out 600ms;
+        height: 400px;
+        width: 450px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    .splash-img{
+        height: 300px;
+        width: 350px;
+      }
 }
 
 @media (min-width: 992px) {
